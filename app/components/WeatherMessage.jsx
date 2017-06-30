@@ -2,8 +2,9 @@ var React = require('react');
 
 var WeatherMessage = ({location, temp}) => {
   return (
-    <div>
-      <p>The temperature in {location} is {temp} &deg;C</p>
+    <div className="text-center callout">
+      <p className="lead">The temperature in <strong>{location}</strong> is: </p>
+      <p><span className="stat">{temp} &deg;C</span></p>
     </div>
   )
 }
