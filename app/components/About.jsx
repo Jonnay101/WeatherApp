@@ -3,10 +3,10 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <div className="" style={{paddingTop: '1rem'}}>
-      <h1 className="text-center">About</h1>
+    <div className="">
+      <h1 className="text-center page-title">About</h1>
       <p className="text-center">This is a 'magical' weather app... <br/> Enter a city and we'll give you the current temperature! </p>
-      <div className="callout text-center lead" style={{border: 'none'}}>
+      <div className="callout text-center lead boom-callout">
         BOOM!
       </div>
       <h4 className="subheader text-center">What did we use???</h4>
@@ -17,7 +17,7 @@ var About = (props) => {
       </ul>
       <h5 className="text-center subheader">Wanna have a peek inside this marvel of the modern world?</h5>
       <div className="text-center">
-        <a className="button expanded alert" href="https://github.com/Jonnay101/WeatherApp" target="_blank">Here's where the magic happens!</a>
+        <a className="button expanded" href="https://github.com/Jonnay101/WeatherApp" target="_blank">Here's where the magic happens!</a>
       </div>
     </div>
   )
